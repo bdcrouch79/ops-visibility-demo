@@ -10,7 +10,7 @@ Count of projects where `RiskStatus` is `At Risk`.
 
 ## Open Field Issues
 
-Count of field issues not yet resolved.
+Count of field issues still open at the time of reporting.
 
 ## Closeout Items Overdue
 

@@ -4,7 +4,7 @@
 
 1. Raw operational datasets capture project, service, issue, closeout, and action detail.
 2. Curated summary datasets shape that detail into reporting-friendly views.
-3. A lightweight dashboard mock shows how the same information could be presented clearly for leadership review.
+3. A lightweight dashboard mock shows how the same information could be presented for leadership review without extra noise.
 
 ## Ecosystem Relationship
 
@@ -16,4 +16,4 @@ Support requests from the workflow repo, follow-through data from the execution 
 
 This architecture is intentionally simple.
 
-The point is not to show a heavy technical stack. The point is to show clear structure, believable operating signals, and a reporting model that would make sense inside a real contractor environment.
+The value here is the reporting model, not stack theatrics. The goal is clear structure, believable signals, and a dashboard shape that would make sense inside a real contractor environment.

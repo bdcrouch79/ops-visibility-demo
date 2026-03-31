@@ -2,54 +2,54 @@
 
 ## Overview
 
-This repo shows what operational reporting can look like when leadership no longer has to piece the story together from spreadsheets, meetings, and inboxes.
+This is the executive-facing layer of the IronRidge portfolio.
 
-The IronRidge Operations Visibility Dashboard is a fictional demo built around a contractor-focused business environment. It brings project health, service backlog, closeout pressure, and operational risk into one clean view so leaders can see what needs attention without waiting on a manual rollup.
+It shows what cleaner leadership reporting can look like when project health, service pressure, closeout exposure, and operational risk stop living in separate conversations. The point is not a flashy BI build. The point is a reporting view that helps leaders see the business faster and talk about the right things sooner.
 
 ## Business Problem
 
-At IronRidge, reporting is not broken because people do not care. It is broken because growth creates drag.
+IronRidge does not have a lack-of-effort problem. It has a visibility problem that comes with growth.
 
-Project updates live in PM trackers. Service work gets managed differently across teams. Closeout issues often surface late. Risk builds quietly until someone notices it in a meeting or starts chasing it directly. Leadership can usually get the answers they need, but it takes too much effort and often happens later than it should.
+Project updates live in PM trackers. Service work gets rolled up differently by team. Closeout trouble shows up late. Risk sits in side conversations longer than it should. Leadership can still get the story, but too often they have to reconstruct it by hand.
 
-## Solution Concept
+## What This Repo Adds
 
-This repo models a lightweight reporting layer built for operational clarity.
+This repo pulls connected sample data from projects, service activity, field issues, closeout items, and action tracking into a reporting-ready layer.
 
-It combines connected sample data across projects, service activity, field issues, closeout items, and action tracking into a dashboard-ready structure that is easy to review and easy to discuss. The goal is not to show a complicated software build. The goal is to show what better visibility looks like.
+The result is a dashboard concept that reads like something an operations or executive review could actually use: fewer moving parts, clearer signals, and less time spent chasing context before a meeting.
 
 ## Ecosystem Context
 
-This repo is the top-level reporting view inside the broader IronRidge demo ecosystem.
+This repo is the top reporting layer inside the wider IronRidge environment.
 
-The other repos show the operating activity behind the numbers:
-- `workflow-drag-reduction-demo` shows how requests move through intake, routing, and approval
-- `execution-infrastructure-demo` shows how commitments, blockers, and follow-through are tracked
-- `contractor-ops-system-demo` shows the field and closeout activity that feeds leadership visibility
+The other repos supply the operational detail behind the numbers:
+- `workflow-drag-reduction-demo` shows how work enters the system through intake, routing, and approvals
+- `execution-infrastructure-demo` shows how ownership, blockers, and follow-through are kept visible
+- `contractor-ops-system-demo` shows the field and closeout conditions that eventually surface as leadership risk
 
-Together, they form one connected contractor environment instead of four unrelated demos.
+Together they read like one contractor operating environment instead of four disconnected demos.
 
 ## Repository Structure
 
-- `docs/` contains the business framing, architecture notes, KPI definitions, and ecosystem context
-- `data/raw/` contains fictional but connected operational records
-- `data/curated/` contains summary tables shaped for reporting
-- `data/sample_exports/` contains simple KPI export examples
-- `src/dashboard-mock/` contains the static dashboard mock used for walkthroughs and screenshots
-- `assets/` contains shared IronRidge visual assets
-- `notes/` contains roadmap and screenshot planning notes
+- `docs/` business framing, architecture notes, KPI definitions, and ecosystem context
+- `data/raw/` fictional but connected operational records
+- `data/curated/` summary tables shaped for reporting
+- `data/sample_exports/` simple export examples
+- `src/dashboard-mock/` static dashboard mock for walkthroughs and screenshots
+- `assets/` shared IronRidge visual assets
+- `notes/` roadmap and screenshot planning notes
 
-## Data and Sample Assets
+## Data And Sample Assets
 
-The data in this repo is fictional, but it is shaped to feel like a real operating environment. Projects, users, issues, service records, and closeout items are all tied to the same IronRidge context used across the rest of the portfolio.
+The data is fictional, but the pressure is familiar. Projects, service tickets, field issues, closeout items, and action records all sit inside the same IronRidge context used across the rest of the portfolio.
 
-The curated layer is where the reporting story comes together. It gives leadership-level visibility into project condition, service pressure, issue exposure, and closeout readiness without requiring a heavy application stack.
+The curated layer is where the reporting story tightens up. It gives leaders a view of project condition, backlog pressure, issue exposure, and closeout readiness without pretending a heavy application build is required to make the point.
 
-## Mock Experience / Screenshots
+## Mock Experience
 
-The mock dashboard is meant to be the clearest visual artifact in the IronRidge ecosystem.
+The mock dashboard is meant to be the cleanest visual artifact in the ecosystem.
 
-It is designed to feel like an internal leadership tool: practical, readable, and focused on what matters most. The page is intentionally lightweight so it can be used quickly for screenshots, walkthroughs, and portfolio conversations.
+It should read like an internal leadership screen: calm, readable, and built around what needs attention now. The page stays intentionally lightweight so it is easy to use for screenshots, walkthroughs, and portfolio review.
 
 ## Future Enhancements
 
@@ -60,4 +60,4 @@ It is designed to feel like an internal leadership tool: practical, readable, an
 
 ## Fictional Demo Notice
 
-This repository is part of a fictional demonstration environment built around IronRidge Contractors, a sample contractor-focused operating company created to showcase reporting, workflow, execution, and operations system design. Names, data, and scenarios are illustrative, but the business patterns reflect real-world operational needs.
+This repository is part of a fictional IronRidge Contractors environment built to show reporting, workflow, execution, and field operations design. The names and records are made up. The business patterns are not.

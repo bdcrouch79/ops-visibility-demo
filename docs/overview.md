@@ -4,11 +4,11 @@
 
 IronRidge Operations Visibility Dashboard
 
-## What This Repo Shows
+## What It Shows
 
-This repository shows how a contractor-focused business could create a cleaner reporting layer for leadership.
+This repo shows what a cleaner leadership reporting layer can look like inside a contractor business.
 
-Instead of rebuilding the story every week from spreadsheets, calls, and scattered updates, the dashboard brings key operating signals into one place. The focus is simple: make it easier to see where attention is needed.
+Instead of rebuilding the story every week from spreadsheets, calls, and scattered updates, the dashboard pulls the most important operating signals into one place. The aim is simple: make it obvious where leadership attention belongs.
 
 ## Primary Audience
 
@@ -21,4 +21,4 @@ Instead of rebuilding the story every week from spreadsheets, calls, and scatter
 
 Within the IronRidge portfolio ecosystem, this repo sits at the top.
 
-It turns the activity represented in the workflow, execution, and field operations repos into a leadership-facing view that is easier to review, easier to discuss, and easier to act on.
+It turns the activity from the workflow, execution, and field operations repos into a leadership view that is easier to review, easier to discuss, and easier to act on.
