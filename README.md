@@ -18,6 +18,14 @@ This repo pulls connected sample data from projects, service activity, field iss
 
 The result is a dashboard concept that reads like something an operations or executive review could actually use: fewer moving parts, clearer signals, and less time spent chasing context before a meeting.
 
+## Screenshots
+
+### Overview
+![Operations Visibility Dashboard Overview](docs/screenshots/hero-overview.png)
+
+### Detail View
+![Operations Visibility Dashboard Detail](docs/screenshots/detail-view.png)
+
 ## Ecosystem Context
 
 This repo is the top reporting layer inside the wider IronRidge environment.
