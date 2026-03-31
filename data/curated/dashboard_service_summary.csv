@@ -1,0 +1,4 @@
+Region,OpenTickets,InProgressTickets,CompletedTickets,BreachedSLA,AtRiskSLA
+Indianapolis,8,3,3,2,3
+Central Indiana,3,0,0,3,0
+Northern Kentucky,6,2,1,1,0

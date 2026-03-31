@@ -1,0 +1,9 @@
+ProjectID,ProjectName,Division,Region,Status,PercentComplete,RiskStatus,OpenFieldIssues,OpenCloseoutItems,CloseoutReadiness
+IR-101,Northgate Medical Office Renovation,General Contracting,Indianapolis,Active,58,Watch,3,3,On Track With Watch Items
+IR-102,Summit Logistics Tenant Buildout,General Contracting,Central Indiana,Active,71,Healthy,3,2,Needs Startup Coordination
+IR-103,Riverside Schools Facility Upgrade,Special Projects,Southwest Ohio,Active,34,At Risk,4,1,Early Risk Exposure
+IR-104,Glenpark Retail Interior Refresh,Special Projects,Chicagoland,Closeout,96,Watch,4,4,Closeout Slipping
+IR-105,Westfield Distribution Dock Expansion,General Contracting,Indianapolis,Active,42,Watch,4,2,Manageable With Procurement Focus
+IR-106,Brookstone Office Suite Modernization,Field Services,Indianapolis,Closeout,93,Healthy,3,4,Closeout Pressure Building
+IR-107,Cedar Hill Service Response Program,Field Services,Northern Kentucky,Active,64,Healthy,3,2,Stable Program With Routing Risk
+IR-108,IronRidge HQ Operations Refresh,Operations Support,Indianapolis,Active,47,Watch,3,2,Internal Coordination Needed

@@ -1,0 +1,7 @@
+KPIName,KPIValue,AsOfDate,Notes
+Active Projects,6,2026-03-31,Includes all projects currently in active delivery or active program status
+Projects at Risk,1,2026-03-31,Riverside Schools Facility Upgrade is currently flagged at risk
+Open Field Issues,23,2026-03-31,Excludes resolved field issues
+Closeout Items Overdue,6,2026-03-31,Driven primarily by Glenpark and Brookstone closeout tasks
+Service Tickets Open > 7 Days,8,2026-03-31,Backlog pressure concentrated in Indianapolis and Central Indiana
+Action Items Overdue,7,2026-03-31,Overdue follow-through includes reporting, safety, and closeout tasks

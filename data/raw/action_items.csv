@@ -1,0 +1,25 @@
+ActionID,Title,Department,Owner,RelatedProjectID,DueDate,Priority,Status,BlockerFlag
+AI-501,Confirm Northgate finish sequence with plumbing trim,Project Delivery,Tyler Boone,IR-101,2026-04-02,High,In Progress,No
+AI-502,Escalate Riverside temporary egress plan review,Field Operations,Chris Dalton,IR-103,2026-03-31,Critical,Overdue,No
+AI-503,Publish weekly closeout aging list,Operations Support,Kelsey Morgan,IR-104,2026-03-29,Medium,Overdue,No
+AI-504,Reset service dispatch coverage for northern Kentucky,Field Services,Jordan Hayes,IR-107,2026-04-03,High,In Progress,Yes
+AI-505,Collect Brookstone training signoffs,Operations Support,Lena Brooks,IR-106,2026-04-01,Medium,Blocked,Yes
+AI-506,Review Summit dock startup recovery options,Project Delivery,Megan Foster,IR-102,2026-04-04,High,Not Started,No
+AI-507,Validate Westfield sealant mockup corrective action,Field Operations,Aaron Pike,IR-105,2026-04-05,Medium,In Progress,No
+AI-508,Confirm HQ refresh phase window with finance,Operations Support,Olivia Chen,IR-108,2026-04-02,Medium,In Progress,No
+AI-509,Close Glenpark warranty letter draft,Operations Support,Lena Brooks,IR-104,2026-03-30,Low,Overdue,No
+AI-510,Prepare executive KPI packet,Operations Support,Kelsey Morgan,,2026-04-01,High,In Progress,No
+AI-511,Resolve Summit access control ticket aging,Field Services,Brooke Allen,IR-102,2026-04-02,High,Blocked,Yes
+AI-512,Update open field issue owners for Monday review,Operations Support,Evan Cross,,2026-04-01,Medium,Complete,No
+AI-513,Collect Northgate commissioning log updates,Project Delivery,Matt Grayson,IR-101,2026-04-07,Medium,Not Started,No
+AI-514,Align Cedar Hill site contact matrix to dispatch roster,Field Services,Olivia Chen,IR-107,2026-04-08,Medium,In Progress,No
+AI-515,Review aging service queue with region leads,Field Services,Caleb Dyer,,2026-04-03,High,In Progress,No
+AI-516,Update closeout dashboard legend and definitions,Operations Support,Evan Cross,,2026-04-06,Low,Not Started,No
+AI-517,Confirm Riverside material lead-time recovery plan,Project Delivery,Noah Whitaker,IR-103,2026-04-02,High,Blocked,Yes
+AI-518,Issue Glenpark owner training reschedule,Special Projects,Megan Foster,IR-104,2026-04-01,Medium,In Progress,No
+AI-519,Verify HQ shutdown approval path,Operations Support,Rachel Holloway,IR-108,2026-04-04,Medium,Not Started,No
+AI-520,Review weekly watch-list narrative for leadership,Operations Support,Kelsey Morgan,,2026-04-05,Medium,Not Started,No
+AI-521,Push Brookstone waiver package to accounting,Operations Support,Monica Reeves,IR-106,2026-04-02,High,In Progress,No
+AI-522,Confirm Northgate as-built handoff timing,Operations Support,Lena Brooks,IR-101,2026-04-10,Medium,Not Started,No
+AI-523,Backfill missing service ticket category tags,Operations Support,Evan Cross,,2026-04-09,Low,Complete,No
+AI-524,Document service SLA exception reasons for March,Field Services,Jordan Hayes,,2026-04-08,Medium,In Progress,No

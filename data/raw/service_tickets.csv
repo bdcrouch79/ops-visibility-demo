@@ -1,0 +1,21 @@
+TicketID,ClientName,SiteName,Region,OpenDate,Category,AssignedTech,SLAStatus,CompletionStatus
+SV-201,Northgate Health Partners,Northgate MOB Level 2,Indianapolis,2026-03-26,HVAC,Derek Shaw,Within SLA,In Progress
+SV-202,Cedar Hill Property Services,Cedar Hill Plaza Suite 4,Northern Kentucky,2026-03-21,Door Hardware,Brooke Allen,Within SLA,Completed
+SV-203,Brookstone Advisory Group,Brookstone North Office,Indianapolis,2026-03-18,Lighting,Derek Shaw,At Risk,In Progress
+SV-204,Summit Logistics Group,Summit Dock Office,Central Indiana,2026-03-10,Access Control,Brooke Allen,Breached,Open
+SV-205,Cedar Hill Property Services,Cedar Hill Commons,Northern Kentucky,2026-03-27,Leak Response,Derek Shaw,Within SLA,Open
+SV-206,Internal Operations,IronRidge HQ,Indianapolis,2026-03-11,Furniture Reset,Brooke Allen,Within SLA,Completed
+SV-207,Westfield Distribution Network,Westfield Dock A,Indianapolis,2026-03-15,Roll-Up Door,Derek Shaw,At Risk,In Progress
+SV-208,Northgate Health Partners,Northgate MOB Suite 115,Indianapolis,2026-03-08,Ceiling Repair,Brooke Allen,Breached,Open
+SV-209,Cedar Hill Property Services,Cedar Hill West Annex,Northern Kentucky,2026-03-24,Punch Follow-Up,Derek Shaw,Within SLA,Open
+SV-210,Brookstone Advisory Group,Brookstone South Office,Indianapolis,2026-03-17,Glass Adjustment,Brooke Allen,Within SLA,Completed
+SV-211,Internal Operations,IronRidge Warehouse,Central Indiana,2026-03-05,Equipment Move,Derek Shaw,Breached,Open
+SV-212,Cedar Hill Property Services,Cedar Hill Medical Plaza,Northern Kentucky,2026-03-29,Electrical,Brooke Allen,Within SLA,In Progress
+SV-213,Northgate Health Partners,Northgate MOB Suite 200,Indianapolis,2026-03-14,Low Voltage,Derek Shaw,At Risk,Open
+SV-214,Westfield Distribution Network,Westfield Dock C,Indianapolis,2026-03-23,Sealant Repair,Brooke Allen,Within SLA,In Progress
+SV-215,Summit Logistics Group,Summit Tenant Office,Central Indiana,2026-03-12,Data Drop,Derek Shaw,Breached,Open
+SV-216,Cedar Hill Property Services,Cedar Hill Town Center,Northern Kentucky,2026-03-25,Storefront,Derek Shaw,Within SLA,In Progress
+SV-217,Brookstone Advisory Group,Brookstone Reception,Indianapolis,2026-03-19,Punch Walk,Brooke Allen,Within SLA,Completed
+SV-218,Northgate Health Partners,Northgate MOB Level 1,Indianapolis,2026-03-16,Millwork,Derek Shaw,At Risk,Open
+SV-219,Internal Operations,IronRidge HQ,Indianapolis,2026-03-28,Badge Access,Brooke Allen,Within SLA,Open
+SV-220,Cedar Hill Property Services,Cedar Hill East Annex,Northern Kentucky,2026-03-07,Emergency Lighting,Derek Shaw,Breached,Open

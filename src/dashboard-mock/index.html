@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IronRidge Operations Visibility Dashboard</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="shell">
+    <header class="hero">
+      <div class="hero-main">
+        <img class="wordmark" src="../../assets/ironridge-wordmark.svg" alt="IronRidge Contractors" />
+        <p class="eyebrow">Executive Reporting Layer</p>
+        <h1>Operations Visibility Dashboard</h1>
+        <p class="subhead">Leadership view of project health, service workload, issue exposure, and closeout readiness across the IronRidge portfolio.</p>
+      </div>
+      <div class="hero-meta">
+        <div class="meta-label">Reporting Date</div>
+        <div class="meta-value">March 31, 2026</div>
+        <div class="meta-note">Prepared for weekly operations review</div>
+      </div>
+    </header>
+
+    <section class="card-grid" id="kpi-cards"></section>
+
+    <section class="panel">
+      <div class="panel-header">
+        <div>
+          <h2>Project Health</h2>
+          <p>Projects requiring leadership awareness this week.</p>
+        </div>
+        <div class="panel-chip">8 active and closeout-stage records</div>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Project</th>
+            <th>Division</th>
+            <th>Status</th>
+            <th>Progress</th>
+            <th>Risk</th>
+            <th>Closeout Readiness</th>
+          </tr>
+        </thead>
+        <tbody id="project-rows"></tbody>
+      </table>
+    </section>
+
+    <section class="two-up">
+      <div class="panel">
+        <div class="panel-header">
+          <div>
+            <h2>Regional Service Pressure</h2>
+            <p>Open demand and SLA strain by operating area.</p>
+          </div>
+        </div>
+        <div id="service-summary" class="stack"></div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-header">
+          <div>
+            <h2>Risk Summary</h2>
+            <p>Portfolio exposure by current risk classification.</p>
+          </div>
+        </div>
+        <div id="risk-summary" class="stack"></div>
+      </div>
+    </section>
+
+    <section class="panel accent-panel">
+      <div class="panel-header">
+        <div>
+          <h2>Closeout Warnings</h2>
+          <p>Projects with overdue turnover work or unresolved dependencies.</p>
+        </div>
+      </div>
+      <div id="closeout-summary" class="stack"></div>
+    </section>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
