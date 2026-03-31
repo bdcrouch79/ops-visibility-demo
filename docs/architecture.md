@@ -3,13 +3,17 @@
 ## Reporting Structure
 
 1. Raw operational datasets capture project, service, issue, closeout, and action detail.
-2. Curated summary datasets translate that detail into dashboard-ready operational views.
-3. The static mock demonstrates how an executive-facing reporting screen could present the same information clearly.
+2. Curated summary datasets shape that detail into reporting-friendly views.
+3. A lightweight dashboard mock shows how the same information could be presented clearly for leadership review.
 
 ## Ecosystem Relationship
 
-The data shapes used here align with the broader IronRidge demo environment. Request activity from the workflow repo, accountability tracking from the execution repo, and issue detail from the field operations repo all fit naturally into this reporting layer.
+The structures in this repo align with the rest of the IronRidge environment.
+
+Support requests from the workflow repo, follow-through data from the execution repo, and issue and closeout activity from the field operations repo all fit naturally into this reporting layer.
 
 ## Practical Design Choice
 
-This architecture stays intentionally lightweight. The portfolio value comes from clarity of structure, believable metrics, and consistent operating language rather than from a heavy application stack.
+This architecture is intentionally simple.
+
+The point is not to show a heavy technical stack. The point is to show clear structure, believable operating signals, and a reporting model that would make sense inside a real contractor environment.

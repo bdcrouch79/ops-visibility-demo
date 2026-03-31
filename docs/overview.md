@@ -4,16 +4,21 @@
 
 IronRidge Operations Visibility Dashboard
 
-## What This Repo Demonstrates
+## What This Repo Shows
 
-This repository shows how IronRidge Contractors could create a leadership reporting layer that turns scattered operational signals into a concise, review-ready dashboard. The emphasis is on practical visibility, not technical complexity.
+This repository shows how a contractor-focused business could create a cleaner reporting layer for leadership.
+
+Instead of rebuilding the story every week from spreadsheets, calls, and scattered updates, the dashboard brings key operating signals into one place. The focus is simple: make it easier to see where attention is needed.
 
 ## Primary Audience
 
-- Ethan Mercer and executive leadership
-- Rachel Holloway and operations leaders
-- division managers who need a common operational view
+- executive leadership
+- operations leaders
+- division managers
+- anyone responsible for reviewing project and operational health at a high level
 
 ## Ecosystem Role
 
-Within the four-repo IronRidge environment, this repo represents the top reporting layer. It summarizes the kinds of operational activity that originate in support workflows, execution reviews, and field issue tracking elsewhere in the ecosystem.
+Within the IronRidge portfolio ecosystem, this repo sits at the top.
+
+It turns the activity represented in the workflow, execution, and field operations repos into a leadership-facing view that is easier to review, easier to discuss, and easier to act on.
