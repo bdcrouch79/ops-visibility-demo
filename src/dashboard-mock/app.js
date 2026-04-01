@@ -13,7 +13,7 @@ const projects = [
   ["Riverside Schools Facility Upgrade", "Special Projects", "Active", "34%", "At Risk", "Safety and material risk still elevated"],
   ["Glenpark Retail Interior Refresh", "Special Projects", "Closeout", "96%", "Watch", "Closeout package is slipping"],
   ["Brookstone Office Suite Modernization", "Field Services", "Closeout", "93%", "Healthy", "Turnover pressure building"],
-  ["IronRidge HQ Operations Refresh", "Operations Support", "Active", "47%", "Watch", "Internal coordination needed"],
+  ["IronRidge HQ Operations Refresh", "Operations Support", "Active", "47%", "Watch", "Internal coordination needed"]
 ];
 
 const serviceSummary = [
@@ -28,6 +28,21 @@ const riskSummary = [
   { title: "At Risk", meta: "1 project | 1 critical issue", tone: "risk" }
 ];
 
+const leadershipNotes = [
+  {
+    title: "Service backlog is localized",
+    copy: "Pressure is not broad-based. Indianapolis and Central Indiana are carrying most of the aging ticket exposure."
+  },
+  {
+    title: "Closeout drag is now visible to leadership",
+    copy: "Glenpark and Brookstone both need tighter follow-through before turnover friction becomes a customer issue."
+  },
+  {
+    title: "Portfolio risk remains contained",
+    copy: "Only one project is in true escalation territory, but several watch-status jobs still need weekly review discipline."
+  }
+];
+
 const closeoutWarnings = [
   { title: "Glenpark Retail Interior Refresh", meta: "4 open closeout items | 3 overdue | owner training still unresolved" },
   { title: "Brookstone Office Suite Modernization", meta: "4 open closeout items | training signoff overdue | vendor dependency still open" },
@@ -35,7 +50,7 @@ const closeoutWarnings = [
 ];
 
 document.getElementById("kpi-cards").innerHTML = kpis.map((item) => `
-  <article class="card">
+  <article class="summary-card">
     <div class="card-label">${item.label}</div>
     <div class="card-value">${item.value}</div>
     <div class="card-note">${item.note}</div>
@@ -61,6 +76,13 @@ function renderStack(id, rows, tagged = false) {
     </div>
   `).join("");
 }
+
+document.getElementById("leadership-notes").innerHTML = leadershipNotes.map((item) => `
+  <article class="note-item">
+    <div class="note-title">${item.title}</div>
+    <div class="note-copy">${item.copy}</div>
+  </article>
+`).join("");
 
 renderStack("service-summary", serviceSummary);
 renderStack("risk-summary", riskSummary, true);

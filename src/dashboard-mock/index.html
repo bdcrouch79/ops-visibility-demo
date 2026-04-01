@@ -13,70 +13,89 @@
         <img class="wordmark" src="../../assets/ironridge-wordmark.svg" alt="IronRidge Contractors" />
         <p class="eyebrow">Leadership Reporting Layer</p>
         <h1>Operations Visibility Dashboard</h1>
-        <p class="subhead">A clean leadership view of project health, service pressure, issue exposure, and closeout readiness across IronRidge.</p>
+        <p class="subhead">A decision-ready view of project pressure, service backlog, portfolio risk, and closeout exposure across IronRidge.</p>
       </div>
-      <div class="hero-meta">
-        <div class="meta-label">Reporting Date</div>
+      <aside class="brief-card">
+        <div class="meta-label">Weekly Operating Review</div>
         <div class="meta-value">March 31, 2026</div>
-        <div class="meta-note">Prepared for the weekly operating review</div>
-      </div>
+        <p class="meta-note">Prepared for leadership review with the watch list, service strain, and closeout exposure in one place.</p>
+        <div class="brief-divider"></div>
+        <div class="brief-highlight">
+          <span class="brief-kicker">Top attention area</span>
+          <strong>Riverside remains the clearest escalation case.</strong>
+        </div>
+      </aside>
     </header>
 
-    <section class="card-grid" id="kpi-cards"></section>
+    <section class="summary-strip" id="kpi-cards"></section>
 
-    <section class="panel">
-      <div class="panel-header">
-        <div>
-          <h2>Project Health</h2>
-          <p>Projects most likely to need leadership attention this week.</p>
+    <section class="executive-layout">
+      <section class="panel main-panel">
+        <div class="panel-header">
+          <div>
+            <h2>Leadership Watch List</h2>
+            <p>The projects most likely to need leadership attention this week.</p>
+          </div>
+          <div class="panel-chip">8 active and closeout-stage records</div>
         </div>
-        <div class="panel-chip">8 active and closeout-stage records</div>
-      </div>
-      <table>
-        <thead>
-          <tr>
-            <th>Project</th>
-            <th>Division</th>
-            <th>Status</th>
-            <th>Progress</th>
-            <th>Risk</th>
-            <th>Closeout Readiness</th>
-          </tr>
-        </thead>
-        <tbody id="project-rows"></tbody>
-      </table>
+        <table>
+          <thead>
+            <tr>
+              <th>Project</th>
+              <th>Division</th>
+              <th>Status</th>
+              <th>Progress</th>
+              <th>Risk</th>
+              <th>Closeout Readiness</th>
+            </tr>
+          </thead>
+          <tbody id="project-rows"></tbody>
+        </table>
+      </section>
+
+      <aside class="executive-rail">
+        <section class="panel compact-panel">
+          <div class="panel-header rail-header">
+            <div>
+              <h2>Portfolio Risk Mix</h2>
+              <p>Current exposure across the portfolio.</p>
+            </div>
+          </div>
+          <div id="risk-summary" class="stack"></div>
+        </section>
+
+        <section class="panel compact-panel accent-panel">
+          <div class="panel-header rail-header">
+            <div>
+              <h2>Leadership Notes</h2>
+              <p>The points most likely to shape the discussion.</p>
+            </div>
+          </div>
+          <div id="leadership-notes" class="note-list"></div>
+        </section>
+      </aside>
     </section>
 
-    <section class="two-up">
-      <div class="panel">
+    <section class="lower-grid">
+      <section class="panel">
         <div class="panel-header">
           <div>
             <h2>Regional Service Pressure</h2>
-            <p>Where service backlog and response strain are building.</p>
+            <p>Where backlog and response strain are building.</p>
           </div>
         </div>
         <div id="service-summary" class="stack"></div>
-      </div>
+      </section>
 
-      <div class="panel">
+      <section class="panel accent-panel">
         <div class="panel-header">
           <div>
-            <h2>Risk Summary</h2>
-            <p>Current exposure across the portfolio.</p>
+            <h2>Closeout Warnings</h2>
+            <p>Projects with turnover work or dependencies still hanging open.</p>
           </div>
         </div>
-        <div id="risk-summary" class="stack"></div>
-      </div>
-    </section>
-
-    <section class="panel accent-panel">
-      <div class="panel-header">
-        <div>
-          <h2>Closeout Warnings</h2>
-          <p>Projects with overdue turnover work or dependencies still hanging open.</p>
-        </div>
-      </div>
-      <div id="closeout-summary" class="stack"></div>
+        <div id="closeout-summary" class="stack"></div>
+      </section>
     </section>
   </div>
   <script src="./app.js"></script>
