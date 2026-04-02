@@ -59,6 +59,17 @@ The mock dashboard is meant to be the cleanest visual artifact in the ecosystem.
 
 It should read like an internal leadership screen: calm, readable, and built around what needs attention now. The page stays intentionally lightweight so it is easy to use for screenshots, walkthroughs, and portfolio review.
 
+## Example Record Flow
+
+The clearest example lineage in this repo is Riverside.
+
+- `REQ-617` in `workflow-drag-reduction-demo` formalizes the support request created by the field issue.
+- `AI-502` in `execution-infrastructure-demo` keeps that work visible in weekly review.
+- `FI-305` in `contractor-ops-system-demo` shows the field-level condition driving the escalation.
+- Here, that same thread appears as Riverside remaining the clearest at-risk project in leadership review.
+
+The dashboard now also carries connected downstream signals from the Glenpark closeout package gaps and the Cedar Hill route coverage strain so the reporting layer reads like a real roll-up, not an isolated mock.
+
 ## Future Enhancements
 
 - connect curated CSVs to lightweight client-side filtering

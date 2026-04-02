@@ -1,52 +1,46 @@
 const kpis = [
-  { label: "Active Projects", value: "6", note: "Current delivery and program work needing weekly visibility." },
-  { label: "Projects At Risk", value: "1", note: "Riverside remains the clearest escalation case." },
-  { label: "Open Field Issues", value: "23", note: "Most of the exposure is sitting inside watch-status work." },
-  { label: "Closeout Overdue", value: "6", note: "Glenpark and Brookstone are driving most of the turnover drag." },
-  { label: "Tickets Over 7 Days", value: "8", note: "Backlog pressure is concentrated in Indianapolis and Central Indiana." },
-  { label: "Overdue Actions", value: "7", note: "Follow-through risk is still visible across reporting and closeout work." }
+  { label: "Projects At Risk", value: "1", note: "Riverside remains the one issue leadership cannot normalize away." },
+  { label: "Closeout Risk", value: "2", note: "Glenpark is the clearest turnover pressure point." },
+  { label: "Service Pressure", value: "1", note: "Cedar Hill is still carrying route instability." },
+  { label: "Open Field Issues", value: "23", note: "Field conditions are still feeding real reporting pressure." }
 ];
 
 const projects = [
-  ["Northgate Medical Office Renovation", "General Contracting", "Active", "58%", "Watch", "On track with coordination items open"],
-  ["Summit Logistics Tenant Buildout", "General Contracting", "Active", "71%", "Healthy", "Startup sequencing still needs review"],
-  ["Riverside Schools Facility Upgrade", "Special Projects", "Active", "34%", "At Risk", "Safety and material risk still elevated"],
-  ["Glenpark Retail Interior Refresh", "Special Projects", "Closeout", "96%", "Watch", "Closeout package is slipping"],
-  ["Brookstone Office Suite Modernization", "Field Services", "Closeout", "93%", "Healthy", "Turnover pressure building"],
-  ["IronRidge HQ Operations Refresh", "Operations Support", "Active", "47%", "Watch", "Internal coordination needed"]
+  ["Riverside Schools Facility Upgrade", "Special Projects", "Active", "34%", "At Risk", "Egress conflict remains unresolved"],
+  ["Glenpark Retail Interior Refresh", "Special Projects", "Closeout Risk", "96%", "Watch", "Startup sheets and attic stock are still missing"],
+  ["Cedar Hill Service Response Program", "Field Services", "Service Pressure", "64%", "Watch", "Routing instability is still affecting response quality"],
+  ["Northgate Medical Office Renovation", "General Contracting", "Active", "58%", "Watch", "On track with coordination items open"]
 ];
 
 const serviceSummary = [
-  { title: "Indianapolis", meta: "8 open tickets | 3 in progress | 2 breached SLA" },
-  { title: "Central Indiana", meta: "3 open tickets | startup-related backlog | 3 breached SLA" },
-  { title: "Northern Kentucky", meta: "6 open tickets | 2 in progress | 1 closed this week" }
+  { title: "Northern Kentucky", meta: "Cedar Hill route strain is still causing uneven response times and handoff quality." },
+  { title: "Indianapolis", meta: "Backlog is present, but it is not the main story this week." }
 ];
 
 const riskSummary = [
-  { title: "Healthy", meta: "3 projects | 9 open issues", tone: "healthy" },
-  { title: "Watch", meta: "4 projects | 14 open issues", tone: "watch" },
-  { title: "At Risk", meta: "1 project | 1 critical issue", tone: "risk" }
+  { title: "At Risk", meta: "Riverside | egress conflict still unresolved", tone: "risk" },
+  { title: "Watch", meta: "Glenpark and Cedar Hill are both still adding operating pressure", tone: "watch" },
+  { title: "Contained", meta: "The rest of the portfolio is still manageable", tone: "healthy" }
 ];
 
 const leadershipNotes = [
   {
-    title: "Service backlog is localized",
-    copy: "Pressure is not broad-based. Indianapolis and Central Indiana are carrying most of the aging ticket exposure."
+    title: "Riverside remains unresolved",
+    copy: "Riverside egress conflict (REQ-617 \u2192 AI-502 \u2192 FI-305) remains unresolved"
   },
   {
-    title: "Closeout drag is now visible to leadership",
-    copy: "Glenpark and Brookstone both need tighter follow-through before turnover friction becomes a customer issue."
+    title: "Glenpark is now a closeout risk",
+    copy: "Missing startup sheets and attic stock are still holding the turnover package open."
   },
   {
-    title: "Portfolio risk remains contained",
-    copy: "Only one project is in true escalation territory, but several watch-status jobs still need weekly review discipline."
+    title: "Cedar Hill is the service-pressure story",
+    copy: "Routing instability is still showing up in response quality, but it remains localized enough to manage."
   }
 ];
 
 const closeoutWarnings = [
-  { title: "Glenpark Retail Interior Refresh", meta: "4 open closeout items | 3 overdue | owner training still unresolved" },
-  { title: "Brookstone Office Suite Modernization", meta: "4 open closeout items | training signoff overdue | vendor dependency still open" },
-  { title: "Northgate Medical Office Renovation", meta: "3 planned closeout items | nothing overdue yet" }
+  { title: "Glenpark Retail Interior Refresh", meta: "Startup sheets and attic stock are still unresolved and keeping closeout exposed." },
+  { title: "Brookstone Office Suite Modernization", meta: "Pressure is building, but it is still secondary to Glenpark." }
 ];
 
 document.getElementById("kpi-cards").innerHTML = kpis.map((item) => `
